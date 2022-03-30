@@ -19,13 +19,15 @@
   --color-grey6: #12181b;
   --br-sm-2: 14px;
 }
+
 body {
   background-color: var(--color-primary);
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-size: 1.1rem;
   color: var(--color-white);
   transition: all 0.4s ease-in-out;
 }
+
 a {
   display: inline-block;
   text-decoration: none;
@@ -53,18 +55,22 @@ section {
   transition: all 0.4s ease-in-out;
   background-color: var(--color-primary);
 }
+
 .sec1 {
   display: none;
   transform: translateY(0) scale(1);
 }
+
 .sec2 {
   display: none;
   transform: translateY(0) scale(1);
 }
+
 .sec3 {
   display: none;
   transform: translateY(0) scale(1);
 }
+
 .sec4 {
   display: none;
   transform: translateY(0) scale(1);
@@ -81,3 +87,5 @@ section {
   justify-content: center;
   transform: translateY(-50%);
 }
+
+/*# sourceMappingURL=style.css.map */
