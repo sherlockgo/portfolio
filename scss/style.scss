@@ -18,6 +18,7 @@
   --color-grey5: #2a2e35;
   --color-grey6: #12181b;
   --br-sm-2: 14px;
+  --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
 }
 body {
   background-color: var(--color-primary);
@@ -80,4 +81,23 @@ section {
   align-items: center;
   justify-content: center;
   transform: translateY(-50%);
+  .control{
+    padding: 1rem;
+    cursor: pointer;
+    background-color: var(--color-grey4);
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .7rem 0;
+    box-shadow: var(--box-shadow-1);
+    i{
+      font-size: 1.2rem;
+      color: var(--color-grey-2);
+      pointer-events: none;
+    }
+  }
 }
+
